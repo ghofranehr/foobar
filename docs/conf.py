@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # foobar documentation build configuration file, created by
-# sphinx-quickstart on Fri Jan 16 10:58:40 2015.
+# sphinx-quickstart on Fri Jan 16 15:13:53 2015.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -18,13 +18,9 @@ import os
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-docs_dir = os.path.abspath('.')
-project_dir = os.path.abspath(os.path.join(docs_dir,os.pardir))
-sources_dir = os.path.join(project_dir,'foobar')
-sys.path.insert(0, sources_dir)
-sys.path.insert(1, '/home/env/lib/python2.7/site-packages')
-
-print sys.path
+#sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, os.path.abspath('../foobar'))
+sys.path.insert(1, os.path.abspath('/home/env/lib/python2.7/site-packages'))
 
 # -- General configuration ------------------------------------------------
 

@@ -1,5 +1,5 @@
 Auto generated documentation
 ============================
 
-.. automodule:: compat
+.. automodule:: database
    :members:
